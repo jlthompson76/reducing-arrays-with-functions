@@ -12,10 +12,10 @@ let numbers = [3, 4, 5];
 console.log(sum());
 
 function sum() {
-    let total = 0;
+    let sum = 0;
     for (let i = 0; i < numbers.length; i++) {
-        total += numbers[i];
-    } return total;
+        sum += numbers[i];
+    } return sum;
 }
 
 // 2) Average of an array
@@ -32,10 +32,10 @@ numbers = [10, 5, 9];
 console.log(average());
 
 function average() {
-    let total = 0;
+    let sum = 0;
     for (i = 0; i < numbers.length; i++) {
-        total += numbers[i];
-    } let average = total / numbers.length;
+        sum += numbers[i];
+    } let average = sum / numbers.length;
     return average;
 }    
 
@@ -58,9 +58,9 @@ function averageBonus() {
 
 console.log(`Bonus 2`);
 numbers = [7, 10, 30, 1];
-console.log(largestNumber());
+console.log(max());
 
-function largestNumber() {
+function max() {
     let max = numbers[0];
     for (let i = 0; i < numbers.length; i++) {
         if (max < numbers[i]) {
@@ -78,8 +78,8 @@ function largestNumber() {
 // largestSum([3, 2, 8], [4, 9, 1]); // returns 17
 
 console.log(`Bonus 3`);
-console.log(largestNumberSum());
+console.log(largestSum());
 
-function largestNumberSum() {
+function largestSum() {
     
 }
