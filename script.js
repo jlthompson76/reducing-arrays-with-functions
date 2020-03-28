@@ -57,10 +57,18 @@ function averageBonus() {
 // max([7,10, 30, 1]); // returns 30
 
 console.log(`Bonus 2`);
+numbers = [7, 10, 30, 1];
 console.log(largestNumber());
 
 function largestNumber() {
-
+    let max = numbers[0];
+    for (let i = 0; i < numbers.length; i++) {
+        if (max < numbers[i]) {
+            max = numbers[i];
+        } else {
+            max = max;
+        }
+    } return max;
 }
 
 // Bonus 3:
