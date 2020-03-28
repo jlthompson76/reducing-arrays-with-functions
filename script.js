@@ -56,7 +56,12 @@ function averageBonus() {
 // Examples:
 // max([7,10, 30, 1]); // returns 30
 
+console.log(`Bonus 2`);
+console.log(largestNumber());
 
+function largestNumber() {
+
+}
 
 // Bonus 3:
 // Write a function that takes two different arrays as parameters, finds the largest number in each array and returns the sum of those two numbers.
@@ -64,4 +69,9 @@ function averageBonus() {
 // Example:
 // largestSum([3, 2, 8], [4, 9, 1]); // returns 17
 
+console.log(`Bonus 3`);
+console.log(largestNumberSum());
 
+function largestNumberSum() {
+    
+}
